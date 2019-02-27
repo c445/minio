@@ -26,7 +26,7 @@ import (
 	"strings"
 	"time"
 
-	etcd "github.com/coreos/etcd/clientv3"
+	etcd "go.etcd.io/etcd/clientv3"
 	dns2 "github.com/miekg/dns"
 	"github.com/minio/cli"
 	"github.com/minio/minio-go/pkg/set"

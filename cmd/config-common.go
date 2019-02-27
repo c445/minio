@@ -22,7 +22,7 @@ import (
 	"errors"
 	"fmt"
 
-	etcd "github.com/coreos/etcd/clientv3"
+	etcd "go.etcd.io/etcd/clientv3"
 	"github.com/minio/minio/cmd/logger"
 	"github.com/minio/minio/pkg/hash"
 )

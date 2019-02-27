@@ -114,7 +114,6 @@ func (o *ObjectHandle) NewRangeReader(ctx context.Context, offset, length int64)
 	if o.readCompressed {
 		req.Header.Set("Accept-Encoding", "gzip")
 	}
-
 	if err := setEncryptionHeaders(req.Header, o.encryptionKey, false); err != nil {
 		return nil, err
 	}

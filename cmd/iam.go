@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	etcd "github.com/coreos/etcd/clientv3"
+	etcd "go.etcd.io/etcd/clientv3"
 	"github.com/minio/minio-go/pkg/set"
 	"github.com/minio/minio/cmd/logger"
 	"github.com/minio/minio/pkg/auth"
