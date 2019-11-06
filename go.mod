@@ -34,7 +34,7 @@ require (
 	github.com/grpc-ecosystem/grpc-gateway v1.9.0 // indirect
 	github.com/hashicorp/go-rootcerts v1.0.1 // indirect
 	github.com/hashicorp/raft v1.1.0 // indirect
-	github.com/hashicorp/vault v1.1.0
+	github.com/hashicorp/vault v1.1.5
 	github.com/inconshreveable/go-update v0.0.0-20160112193335-8152e7eb6ccf
 	github.com/json-iterator/go v1.1.6
 	github.com/klauspost/compress v1.5.0 // indirect
